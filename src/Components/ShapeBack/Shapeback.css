@@ -1,0 +1,66 @@
+
+.shape .tri1{
+    width: 50px;
+    position: absolute;
+   top: 20%;
+   right: 10%;
+   opacity: 0.4;
+  }
+  .shape .square1{
+    
+    width: 50px;
+    position: absolute;
+    top:20%;
+    left: 17%;
+    opacity: 0.4;
+  
+  }
+  
+  .shape .circle1{
+    width: 50px;
+    position: absolute;
+    bottom: 6%;
+    left: 18%;
+    opacity: 0.4;
+  
+  }
+  .shape .cylinder1{
+    width: 60px;
+    position: absolute;
+    bottom: 9%;
+    right: 15%;
+    opacity: 0.4;
+  
+  }
+  .shape .tri2{
+    width: 50px;
+    position: absolute;
+     top:35%;
+    left: 7%;
+    opacity: 0.4;
+  }
+  
+  .shape .square2{
+    width: 50px;
+    position: absolute;
+     bottom:28%;
+    right: 7%;
+    opacity: 0.4;
+  
+  }
+  .shape .circle2{
+    width: 50px;
+    position: absolute;
+   top: 40%;
+   right: 13%;
+   opacity: 0.4;
+  }
+  
+  .shape .cylinder2{
+    width: 60px;
+    position: absolute;
+     top:60%;
+    left: 11%;
+    opacity: 0.4;
+  
+  }

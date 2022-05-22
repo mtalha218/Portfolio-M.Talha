@@ -1,0 +1,62 @@
+.about-container{
+    height: 100vh;
+    padding: 0 5%;
+    /* background-color: rgb(163, 109, 214); */
+    display: flex;
+    flex-direction: row;
+    color: var(--clr-bg);
+align-items: center;}
+
+.about-left, .about-right{
+    width: 50%;
+}
+.about-right{
+    padding-bottom: 50px;
+
+}
+.about-right .general-heading{
+margin-bottom: -10px;
+}
+
+.about-right .about-header{
+    font-size: 3.25rem;
+    font-weight: 500;
+
+}
+.about-right .about-detail{
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-top: -15px;
+}
+.about-right .resume-div{
+    display: flex;
+    padding-top: 35px;
+    flex-direction: row;
+    align-items: center;
+}
+.about-right .resume-div .btn-primary{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+.resume-div .btn-primary .down{
+margin-right: 10px;
+font-size: 20px;
+}
+.about-right .resume-div .git{
+    font-size: 1.063rem;
+    text-decoration: underline;
+    cursor:pointer;
+    color: var(--clr-bg);
+}
+.about-left .profilePic{
+    width: 50%;
+    height: auto;
+}
+.about-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,13 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --clr-bg: #ebebeb;
+  --clr-primary: #287F6F;
+  --clr-secondary: #FF6B35;
+  --clr-black: #121314;
+  --clr-medium: #62bad0;
+  --clr-light: #B8F1F8;
+  --clr-gray: #4e4e4e;
+  --clr-gray-light: #949494;
+
+  --ft-primary: 'Poppins', "Segio UI",sans-serif;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var( --ft-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn-primary{
+  padding: 12px 29px;
+  font-family: var(--ft-primary);
+  font-weight: 500;
+  font-size: 1.063rem;
+border: none;
+background-color: var(--clr-bg);
+color: var(--clr-black);
+cursor: pointer;
 }
+
+.general-heading{
+  font-size: 1.063rem;
+letter-spacing: 8px;
+font-weight: 500;
+background-image: linear-gradient(to right,var(--clr-secondary),#745bd9 , #ff82c3 ,var(--clr-primary));
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+background-size: 200%;
+background-position: -100%;
+animation: animatedText 4s infinite alternate-reverse;}
