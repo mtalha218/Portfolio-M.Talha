@@ -52,11 +52,115 @@ font-size: 20px;
     color: var(--clr-bg);
 }
 .about-left .profilePic{
-    width: 50%;
+    width: 330px;
     height: auto;
 }
 .about-left{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media only screen and (max-width: 1200px) {
+    
+    .about-right .general-heading{
+        margin-bottom: -12px;
+        }
+        
+        .about-right .about-header{
+            font-size: 2.9rem;
+            font-weight: 500;
+
+        }
+        .about-right .about-detail{
+            font-size: 1.2rem;
+            font-weight: 100;
+            margin-top: -15px;
+        }
+        .about-left .profilePic{
+            width: 300px;
+            height: auto;
+        }
+}
+@media only screen and (max-width: 992px) {
+   
+    .about-right .general-heading{
+        margin-bottom: -15px;
+        }
+        
+        .about-right .about-header{
+            font-size: 2.4rem;
+            font-weight: 500;
+        
+        }
+        .about-right .about-detail{
+            font-size: 1.2rem;
+            font-weight: 100;
+            margin-top: -15px;
+        }
+        .about-left .profilePic{
+            width: 250px;
+            height: auto;
+        }
+        .about-right .resume-div{
+            padding-top: 25px;
+        }
+        .about-right .resume-div .btn-primary, .about-right .resume-div .git{
+           font-size: 1rem;
+        
+        }
+}
+@media only screen and (max-width: 768px) {
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+text-align: center;
+align-items: center;}
+
+.about-left, .about-right{
+    width: 100%;
+}
+.about-left{
+    margin-top: 60px;
+}
+.about-right{
+margin-top: 30px;
+align-items: center;
+}
+.about-left .profilePic{
+    width: 40%;
+    height: auto;
+}
+    .about-right .general-heading{
+        margin-bottom: -15px;
+        font-size: 1rem;
+        }
+        
+        .about-right .about-header{
+            font-size: 2rem;
+            font-weight: 500;
+
+        
+        }
+        .about-right .about-detail{
+            font-size: 1.1rem;
+            font-weight: 100;
+            margin-top: 0px;
+        }
+        .about-right .resume-div{
+            padding-top: 25px;
+            justify-content: center;
+        }
+        .about-right .resume-div .btn-primary, .about-right .resume-div .git{
+           font-size: 1rem;
+        
+        }
+       
+       
+}
+@media only screen and (max-width: 600px) {
+    
+    .about-left{
+        margin-top: 40px;
+    }
 }

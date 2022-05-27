@@ -1,50 +1,53 @@
-.container-hero{
-padding: 0 5%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-between;
-height: 80vh;
-width: auto;
-/* background-color: #ff82c3; */
+.container-hero {
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  height: 80vh;
+  /* background-color: #ff82c3; */
 }
 
-.hero-left{
-align-self: center;
-padding-top: 10%;
+.hero-left {
+  align-self: center;
+  padding-top: 10%;
 }
-.hero-left .hero-heading{
-    font-size: 3rem;
-    font-weight: lighter;
-    letter-spacing: -2.8px;
-    color: var(--clr-bg);
-    text-align: center;
-    line-height: 1.25;
+.hero-left .hero-heading {
+  font-size: 3rem;
+  font-weight: lighter;
+  letter-spacing: -2.8px;
+  color: var(--clr-bg);
+  text-align: center;
+  line-height: 1.25;
 }
 
-.hero-left .colorName{
-    font-size:5rem ;
-    font-weight: 600;
-    letter-spacing: 2px;
-background-image: linear-gradient(to right,var(--clr-secondary),#745bd9 , #ff82c3 ,var(--clr-primary));
--webkit-background-clip: text;
-background-clip: text;
-color: transparent;
-background-size: 200%;
-background-position: -100%;
-animation: animatedText 4s infinite alternate-reverse;
+.hero-left .colorName {
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-image: linear-gradient(
+    to right,
+    var(--clr-secondary),
+    #745bd9,
+    #ff82c3,
+    var(--clr-primary)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: 200%;
+  background-position: -100%;
+  animation: animatedText 4s infinite alternate-reverse;
 }
 
 @keyframes animatedText {
-    from{
-background-position: 0%
-;
-    }
-    to{
-        background-position: 100%;
-
-    }
-    
+  from {
+    background-position: 0%;
+  }
+  to {
+    background-position: 100%;
+  }
 }
 
 /* .container-hero .spiral{
@@ -69,44 +72,82 @@ background-position: 0%
     bottom: 0%;
     left: 0%;
 } */
-.container-hero .scroll{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    opacity: 0.4;
-
+.container-hero .scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.4;
+  margin-top: 5%;
 }
-.container-hero .mouse-body{
-
-    height: 60px;
-    width: 40px;
-    /* position: fixed; */
-    border: 2px solid var(--clr-bg);
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    /* margin-bottom: 30px; */
-    overflow: hidden;
+.container-hero .mouse-body {
+  height: 60px;
+  width: 40px;
+  /* position: fixed; */
+  border: 2px solid var(--clr-bg);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 30px; */
+  overflow: hidden;
 }
 
-.container-hero .scroll .mouse-scroll{
-    width: 3.5px;
-    height: 6px;
-    border-radius: 10px;
-    background-color: var(--clr-bg);
-    margin-top: 10px;
-    animation-name: mouseScroll;
-    animation-duration: 2s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
+.container-hero .scroll .mouse-scroll {
+  width: 3.5px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: var(--clr-bg);
+  margin-top: 10px;
+  animation-name: mouseScroll;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
 }
 
 @keyframes mouseScroll {
-    from{
-        transform: translateY(-20px);
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(30px);
+  }
+}
+@media only screen and (min-width: 1200px) {
+
+
+}
+@media only screen and (max-width: 992px) {
+ 
+    .hero-left{
+        margin-top: 10%;
     }
-    to{
-        transform: translateY(30px);
+    .hero-left .colorName {
+    font-size: 4rem;
+    }
+    .hero-left .hero-heading {
+    font-size: 2.5rem;
     }
 }
-
+@media only screen and (max-width: 768px) {
+ 
+    .hero-left{
+        margin-top: 13%;
+    }
+    .hero-left .colorName {
+    font-size: 3.3rem;
+    }
+    .hero-left .hero-heading {
+    font-size: 2.3rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    
+    .hero-left{
+        margin-top: 20%;
+    }
+    .hero-left .colorName {
+    font-size: 2.85rem;
+    }
+    .hero-left .hero-heading {
+    font-size: 1.875rem;
+    }
+}

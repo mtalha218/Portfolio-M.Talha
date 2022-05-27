@@ -5,7 +5,8 @@ import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 
 import rainbow from "./Images/Group13.svg"
-import Footer from "./Components/Footer/Footer";
+import rainbow0 from "./Images/Group13Half.png"
+
 import Skills from "./Components/Skills/Skills";
 import Work from "./Components/Work/Work";
 
@@ -32,7 +33,9 @@ function App() {
         <Skills/>
         <Work/>
         <Contact />
-        {/* <img className="rainbow" src={rainbow} alt="rainbow" /> */}
+        <img className="rainbow1" src={rainbow} alt="rainbow" />
+        <img className="rainbow2" src={rainbow} alt="rainbow" />
+        <img className="rainbow3" src={rainbow} alt="rainbow" />
 
       </div>
     </div>

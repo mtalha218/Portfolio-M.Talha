@@ -17,7 +17,7 @@ function Work() {
           <p>Coming Soon</p>
         </div>
         <div className='tools'>
-        <p>Tools: React.js, Node.js, Express.js, MongoDB, Bootstrap...</p>
+        <p>Tools: React.js, Node.js, Express.js, MongoDB...</p>
         </div>
       </div>
       <div className='work2'>

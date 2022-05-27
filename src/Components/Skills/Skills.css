@@ -1,11 +1,12 @@
 .skills-container{
-    height: 100vh;
+    height: auto;
+    margin: 50px 0;
     padding: 0 5%;
     color: var(--clr-bg);
     display: flex;
     flex-direction: column;
    justify-content: center;
-   /* background-color: aqua; */
+   /* border: red solid 1px; */
 }
 .skills-left, .skills-right {
     width: 75%;
@@ -41,4 +42,85 @@
 }
 .skills-right{
     margin-top: 70px;
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    /* .skills-container{
+    height: 115vh;
+    } */
+    
+    .general-heading{
+        margin-bottom: -12px;
+        }
+        
+         .skills-heading{
+            font-size: 2.9rem;
+            font-weight: 500;
+
+        }
+        .skills-detail{
+            font-size: 1.2rem;
+            font-weight: 100;
+            margin-top: -35px;
+        }
+}
+@media only screen and (max-width: 992px) {
+    /* .skills-container{
+        height: 115vh;
+        } */
+    .general-heading{
+        margin-bottom: -15px;
+        }
+        
+        .skills-heading{
+            font-size: 2.4rem;
+            font-weight: 500;
+        
+        }
+        .skills-detail{
+            font-size: 1.2rem;
+            font-weight: 100;
+            margin-top: -45px;
+        }
+        .techs .tech{
+            font-size: 1rem;
+
+        }
+        .skills-left, .skills-right {
+            width:100%;
+align-items: center;   }
+        
+}
+@media only screen and (max-width: 768px) {
+   .skills-container{
+       padding-top: 30px;
+       padding-bottom: 30px;
+       align-items: center;
+       text-align: center;
+
+   }
+    .general-heading{
+        margin-bottom: -15px;
+        font-size: 1rem;
+        }
+        
+        .skills-heading{
+            font-size: 2rem;
+            font-weight: 500;
+        
+        }
+        .skills-detail{
+            font-size: 1.1rem;
+            font-weight: 100;
+            margin-top: -45px;
+        }
+       
+       
+}
+@media only screen and (max-width: 600px) {
+    
+    /* .skills-container{
+        height: 120vh;
+        } */
 }

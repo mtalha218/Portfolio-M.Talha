@@ -1,10 +1,11 @@
 .work-container {
   height: 90vh;
-  padding: 0 5%;
+  padding: 50px 5%;
   color: var(--clr-bg);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* border: 1px solid red; */
 }
 .work-container .work-top {
   display: flex;
@@ -25,7 +26,7 @@
 }
 .works .work1 .image {
   background-image: url("../../Images/opportunist.PNG");
-  width: 500px;
+  width: 480px;
   height: 210px;
   background-size: contain;
   color: white;
@@ -36,7 +37,7 @@
 
 .works .work2 .image {
   background-image: url("../../Images/cart.PNG");
-  width: 500px;
+  width: 480px;
   height: 210px;
   background-size: contain;
   color: white;
@@ -47,6 +48,7 @@
 
 .work1 .work-detail,
 .work2 .work-detail {
+  font-size: 1.063rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -54,11 +56,15 @@
   margin-bottom: -15px;
 }
 .work-detail :last-child {
+  font-size: 1.063rem;
+
   opacity: 0.5;
   font-weight: 200;
 }
 .work1 .tools,
 .work2 .tools {
+  font-size: 1.063rem;
+
   opacity: 0.5;
   font-weight: 200;
   display: flex;
@@ -71,3 +77,127 @@
   transition: 0.3s ease-out;
   color: var(--clr-bg);
 }
+
+@media only screen and (max-width: 1200px) {
+  
+  
+  .general-heading{
+      margin-bottom: -12px;
+      }
+      
+       .work-header{
+          font-size: 2.9rem;
+          font-weight: 500;
+
+      }
+      .works .work2 .image {
+        width: 420px;
+        height: 190px;
+        
+      }
+      .works .work1 .image {
+        width: 420px;
+        height: 190px;
+      }
+      
+}
+
+@media only screen and (max-width: 992px) {
+  
+  .general-heading{
+      margin-bottom: -15px;
+      }
+      
+      .work-header{
+          font-size: 2.4rem;
+          font-weight: 500;
+      
+      }
+      .works .work2 .image {
+        width: 300px;
+        height: 150px;
+        
+      }
+      .works .work1 .image {
+        width: 300px;
+        height: 150px;
+      }
+      .work1 .work-detail,
+.work2 .work-detail {
+  display: flex;
+  flex-direction: column;
+}
+.work-detail :last-child {
+margin-top: 0;
+  
+}
+
+      
+      
+      
+}
+@media only screen and (max-width: 768px) {
+ 
+  .general-heading{
+      margin-bottom: -15px;
+      font-size: 1rem;
+      }
+      
+      .work-header{
+          font-size: 2rem;
+          font-weight: 500;
+      
+      }
+      .work1 .work-detail,
+.work2 .work-detail {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+
+}
+.work1, .work2{
+  margin-bottom: 20px;
+}
+.work-detail :last-child {
+  font-size: 1rem;
+margin-bottom: 12px;
+  
+}
+.works .work2 .image {
+  width: 390px;
+  height: 160px;
+  
+}
+.works .work1 .image {
+  width: 390px;
+  height: 160px;
+}
+.work1 .tools,
+.work2 .tools {
+  font-size: 1rem;
+
+ 
+}
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.work-container {
+height: auto;
+}
+     
+}
+
+@media only screen and (max-width: 768px) {
+
+.works .work2 .image {
+  width: 350px;
+  height: 150px;
+  
+}
+.works .work1 .image {
+  width: 350px;
+  height: 150px;
+}}

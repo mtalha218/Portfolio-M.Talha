@@ -2,6 +2,8 @@ import React,{useState} from "react";
 import "./Contact.css";
 import gmail from "../../Images/gmail.svg";
 import linkedin from "../../Images/linkedin.svg";
+
+
 function Contact() {
 
   const timeOut = new Date();
@@ -49,7 +51,9 @@ setInterval(updateTime, 1000)
 <p className="time">{time} {hour<12?"AM":"PM"} (GMT+5)</p>
 
 </div> 
+
    </div>
+   
   );
 }
 
