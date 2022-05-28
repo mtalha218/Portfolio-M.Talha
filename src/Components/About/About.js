@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { AiOutlineDownload } from "react-icons/ai";
-import resume from "../../Resume-MuhammadTalha.pdf";
+import resume from "../../Muhammad-Talha-Resume.pdf";
 import profilePic from "../../Images/ProfilePic.png";
 import "./About.css";
 import { useInView } from "react-intersection-observer";
@@ -26,6 +26,7 @@ function About() {
 
   return (
     <motion.div
+    id="about"
       ref={ref}
       className="about-container"
       initial={{ opacity: 0, y: 80 }}

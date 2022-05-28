@@ -43,6 +43,7 @@ function Contact() {
 
   return (
     <motion.div
+    id="contact"
       ref={ref}
       className="contact-container"
       initial={{ opacity: 0, x: -80 }}

@@ -24,6 +24,7 @@ function Work() {
 
   return (
     <motion.div
+    id="work"
       ref={ref}
       className="work-container"
       initial={{ opacity: 0, y: 80 }}

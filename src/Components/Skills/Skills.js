@@ -47,6 +47,7 @@ function Skills() {
 
   return (
     <motion.div
+    id="skills"
       ref={ref}
       className="skills-container"
       initial={{ opacity: 0, y: 80 }}

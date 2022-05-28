@@ -43,6 +43,10 @@
 .link-line .link-btn {
   margin-left: 60px;
 }
+.link-line .link-btn .btn-primary {
+  text-decoration: none;
+  
+}
 
 .link-line .link-group .dot {
   width: 6px;

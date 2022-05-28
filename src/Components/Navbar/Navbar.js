@@ -28,7 +28,7 @@ function Navbar() {
       <div className="link-line">
         <section className="link-group">
           <a
-            href=""
+            href="#about"
             className="links"
             onMouseOut={() => setDot1(true)}
             onMouseOver={() => setDot1(false)}
@@ -39,7 +39,7 @@ function Navbar() {
         </section>
         <section className="link-group">
           <a
-            href=""
+            href="#skills"
             className="links"
             onMouseOut={() => setDot2(true)}
             onMouseOver={() => setDot2(false)}
@@ -50,7 +50,7 @@ function Navbar() {
         </section>
         <section className="link-group">
           <a
-            href=""
+            href="#work"
             className="links"
             onMouseOut={() => setDot3(true)}
             onMouseOver={() => setDot3(false)}
@@ -62,7 +62,7 @@ function Navbar() {
 
         <section className="link-btn">
           
-          <button className="btn-primary">Contact</button>
+          <a href="#contact" className="btn-primary">Contact</a>
         </section>
       </div>
     </motion.div>
