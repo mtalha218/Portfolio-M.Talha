@@ -12,6 +12,20 @@
   --clr-gray-light: #949494;
 
   --ft-primary: 'Poppins', "Segio UI",sans-serif;
+
+--ft-small:0.81rem;
+--ft-small2:0.75rem;
+
+--ft-heading: 2.5rem;
+--ft-heading2: 2.3rem;
+--ft-heading3: 2rem;
+--ft-heading4: 1.8rem;
+
+
+--ft-detail: 1.1rem;
+--ft-detail2: 1rem;
+--ft-detail3: 0.9rem;
+
 }
 
 body {
@@ -22,10 +36,11 @@ body {
 }
 
 .btn-primary{
-  padding: 12px 29px;
+  border-radius: 1px;
+  padding: 10px 25px;
   font-family: var(--ft-primary);
   font-weight: 500;
-  font-size: 1.063rem;
+  font-size: var(--ft-small);
 border: none;
 background-color: var(--clr-bg);
 color: var(--clr-black);
@@ -33,7 +48,7 @@ cursor: pointer;
 }
 
 .general-heading{
-  font-size: 1.063rem;
+  font-size: var(--ft-small);
 letter-spacing: 8px;
 font-weight: 500;
 background-image: linear-gradient(to right,var(--clr-secondary),#745bd9 , #ff82c3 ,var(--clr-primary));

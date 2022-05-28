@@ -14,7 +14,7 @@
   padding-top: 10%;
 }
 .hero-left .hero-heading {
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-weight: lighter;
   letter-spacing: -2.8px;
   color: var(--clr-bg);
@@ -23,7 +23,7 @@
 }
 
 .hero-left .colorName {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 600;
   letter-spacing: 2px;
   background-image: linear-gradient(
@@ -50,28 +50,6 @@
   }
 }
 
-/* .container-hero .spiral{
-    width: 150px;
-    position: absolute;
-   top: -50%;
-   left: -50%;
-} */
-/* .container-hero .torus{
-    width: 130px;
-    position: absolute;
-     top:0%;
-    left: 0%;
-
-} */
-
-/* .container-hero .cone{
-    width: 140px;
-    -ms-transform: rotate(20deg); 
-  transform: rotate(40deg);
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-} */
 .container-hero .scroll {
   display: flex;
   flex-direction: column;
@@ -80,8 +58,8 @@
   margin-top: 5%;
 }
 .container-hero .mouse-body {
-  height: 60px;
-  width: 40px;
+  height: 45px;
+  width: 30px;
   /* position: fixed; */
   border: 2px solid var(--clr-bg);
   border-radius: 25px;
@@ -113,41 +91,37 @@
 }
 @media only screen and (min-width: 1200px) {
 
-
 }
 @media only screen and (max-width: 992px) {
- 
-    .hero-left{
-        margin-top: 10%;
-    }
-    .hero-left .colorName {
-    font-size: 4rem;
-    }
-    .hero-left .hero-heading {
-    font-size: 2.5rem;
-    }
+  .hero-left {
+    margin-top: 7%;
+  }
+  .hero-left .colorName {
+    font-size: 3.5rem;
+  }
+  .hero-left .hero-heading {
+    font-size: 2.2rem;
+  }
 }
 @media only screen and (max-width: 768px) {
- 
-    .hero-left{
-        margin-top: 13%;
-    }
-    .hero-left .colorName {
-    font-size: 3.3rem;
-    }
-    .hero-left .hero-heading {
-    font-size: 2.3rem;
-    }
+  .hero-left {
+    margin-top: 13%;
+  }
+  .hero-left .colorName {
+    font-size: 3.1rem;
+  }
+  .hero-left .hero-heading {
+    font-size: 2rem;
+  }
 }
 @media only screen and (max-width: 600px) {
-    
-    .hero-left{
-        margin-top: 20%;
-    }
-    .hero-left .colorName {
-    font-size: 2.85rem;
-    }
-    .hero-left .hero-heading {
-    font-size: 1.875rem;
-    }
+  .hero-left {
+    margin-top: 20%;
+  }
+  .hero-left .colorName {
+    font-size: 2.6rem;
+  }
+  .hero-left .hero-heading {
+    font-size: 1.8rem;
+  }
 }

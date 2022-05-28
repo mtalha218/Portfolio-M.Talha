@@ -13,7 +13,7 @@
   align-items: center;
 }
 .work-header {
-  font-size: 3.25rem;
+  font-size: var(--ft-heading);
   font-weight: 500;
   text-align: center;
 }
@@ -48,7 +48,7 @@
 
 .work1 .work-detail,
 .work2 .work-detail {
-  font-size: 1.063rem;
+  font-size: var(--ft-small);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -56,14 +56,14 @@
   margin-bottom: -15px;
 }
 .work-detail :last-child {
-  font-size: 1.063rem;
+  font-size: var(--ft-small);
 
   opacity: 0.5;
   font-weight: 200;
 }
 .work1 .tools,
 .work2 .tools {
-  font-size: 1.063rem;
+  font-size: var(--ft-small);
 
   opacity: 0.5;
   font-weight: 200;
@@ -79,125 +79,104 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  
-  
-  .general-heading{
-      margin-bottom: -12px;
-      }
-      
-       .work-header{
-          font-size: 2.9rem;
-          font-weight: 500;
+  .general-heading {
+    margin-bottom: -12px;
+  }
 
-      }
-      .works .work2 .image {
-        width: 420px;
-        height: 190px;
-        
-      }
-      .works .work1 .image {
-        width: 420px;
-        height: 190px;
-      }
-      
+  .work-header {
+    font-size: var(--ft-heading2);
+    font-weight: 500;
+  }
+  .works .work2 .image {
+    width: 420px;
+    height: 190px;
+  }
+  .works .work1 .image {
+    width: 420px;
+    height: 190px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
-  
-  .general-heading{
-      margin-bottom: -15px;
-      }
-      
-      .work-header{
-          font-size: 2.4rem;
-          font-weight: 500;
-      
-      }
-      .works .work2 .image {
-        width: 300px;
-        height: 150px;
-        
-      }
-      .works .work1 .image {
-        width: 300px;
-        height: 150px;
-      }
-      .work1 .work-detail,
-.work2 .work-detail {
-  display: flex;
-  flex-direction: column;
-}
-.work-detail :last-child {
-margin-top: 0;
-  
-}
+  .general-heading {
+    margin-bottom: -15px;
+  }
 
-      
-      
-      
+  .work-header {
+    font-size: var(--ft-heading3);
+    font-weight: 500;
+  }
+  .works .work2 .image {
+    width: 300px;
+    height: 150px;
+  }
+  .works .work1 .image {
+    width: 300px;
+    height: 150px;
+  }
+  .work1 .work-detail,
+  .work2 .work-detail {
+    display: flex;
+    flex-direction: column;
+  }
+  .work-detail :last-child {
+    margin-top: 0;
+  }
 }
 @media only screen and (max-width: 768px) {
- 
-  .general-heading{
-      margin-bottom: -15px;
-      font-size: 1rem;
-      }
-      
-      .work-header{
-          font-size: 2rem;
-          font-weight: 500;
-      
-      }
-      .work1 .work-detail,
-.work2 .work-detail {
-  font-size: 1rem;
-  display: flex;
-  flex-direction: column;
+  .general-heading {
+    margin-bottom: -15px;
+    font-size: var(--ft-small2);
+  }
 
-}
-.work1, .work2{
-  margin-bottom: 20px;
-}
-.work-detail :last-child {
-  font-size: 1rem;
-margin-bottom: 12px;
-  
-}
-.works .work2 .image {
-  width: 390px;
-  height: 160px;
-  
-}
-.works .work1 .image {
-  width: 390px;
-  height: 160px;
-}
-.work1 .tools,
-.work2 .tools {
-  font-size: 1rem;
-
- 
-}
-.works {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-}
-.work-container {
-height: auto;
-}
-     
+  .work-header {
+    font-size: var(--ft-heading4);
+    font-weight: 500;
+  }
+  .work1 .work-detail,
+  .work2 .work-detail {
+    font-size: var(--ft-small2);
+    display: flex;
+    flex-direction: column;
+  }
+  .work1,
+  .work2 {
+    margin-bottom: 20px;
+  }
+  .work-detail :last-child {
+    font-size: var(--ft-small2);
+    margin-bottom: 12px;
+  }
+  .works .work2 .image {
+    width: 390px;
+    height: 160px;
+  }
+  .works .work1 .image {
+    width: 390px;
+    height: 160px;
+  }
+  .work1 .tools,
+  .work2 .tools {
+    font-size: var(--ft-small2);
+  }
+  .works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .work-container {
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-
-.works .work2 .image {
-  width: 350px;
-  height: 150px;
-  
+  .works .work2 .image {
+    width: 350px;
+    height: 150px;
+  }
+  .works .work1 .image {
+    width: 350px;
+    height: 150px;
+  }
 }
-.works .work1 .image {
-  width: 350px;
-  height: 150px;
-}}
