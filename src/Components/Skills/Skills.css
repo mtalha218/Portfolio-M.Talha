@@ -1,6 +1,6 @@
 .skills-container {
   height: auto;
-  margin: 50px 0;
+  margin: 15% 0;
   padding: 0 5%;
   color: var(--clr-bg);
   display: flex;
@@ -20,7 +20,7 @@
   font-weight: 500;
 }
 .skills-detail {
-  font-size:var(--ft-detail);
+  font-size: var(--ft-detail);
   font-weight: 100;
   margin-top: -15px;
 }
@@ -62,7 +62,6 @@
   }
 }
 @media only screen and (max-width: 992px) {
-  
   .general-heading {
     font-size: var(--ft-small);
     margin-bottom: -15px;
@@ -89,21 +88,20 @@
     align-items: center;
     text-align: center;
   }
-  .skills-left .general-heading{
+  .skills-left .general-heading {
     font-size: var(--ft-small2);
   }
   .skills-heading {
     font-size: var(--ft-heading4);
   }
   .skills-detail {
-    font-size:var(--ft-detail3); 
+    font-size: var(--ft-detail3);
     margin-top: -45px;
   }
   .techs .tech {
-    font-size:  var(--ft-small2);
+    font-size: var(--ft-small2);
     padding: 11px 20px;
-  margin-right: 18px;
-  margin-bottom: 18px;
+    margin-right: 18px;
+    margin-bottom: 18px;
   }
-  
 }

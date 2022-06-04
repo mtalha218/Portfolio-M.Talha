@@ -1,6 +1,8 @@
 .work-container {
-  height: 90vh;
-  padding: 50px 5%;
+  height: auto;
+  padding: 0 5%;
+  margin: 15% 0;
+
   color: var(--clr-bg);
   display: flex;
   flex-direction: column;
@@ -172,11 +174,11 @@
 
 @media only screen and (max-width: 768px) {
   .works .work2 .image {
-    width: 350px;
+    width: 320px;
     height: 150px;
   }
   .works .work1 .image {
-    width: 350px;
+    width: 320px;
     height: 150px;
   }
 }

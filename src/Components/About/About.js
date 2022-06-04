@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 import { AiOutlineDownload } from "react-icons/ai";
-import resume from "../../Muhammad-Talha-Resume.pdf";
+import resume from "../../Muhammad-Talha-Resume_compressed.pdf";
 import profilePic from "../../Images/ProfilePic.png";
 import "./About.css";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
 
 function About() {
-  const { inView, ref } = useInView({ threshold: 0.2 });
+  const { inView, ref } = useInView({ threshold: 0.25 });
   const animation = useAnimation();
   useEffect(() => {
     if (inView) {
@@ -47,7 +47,7 @@ function About() {
           <div>
           <a href={resume} target="_blank" className="btn-primary">
             <AiOutlineDownload className="down" />
-            My Resume
+            Resume
           </a>
           </div>
           <a

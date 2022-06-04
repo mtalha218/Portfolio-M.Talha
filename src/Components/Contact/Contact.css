@@ -1,11 +1,13 @@
 
 
 .contact-container {
-  height: 90vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 5%;
+  padding-bottom: 8% ;
+/* border: 1px solid red; */
 }
 
 .contact-header {
@@ -94,10 +96,7 @@
   .contact-header {
     font-size: var(--ft-heading3);
   }
-  .contacts {
-    flex-direction: column;
-    justify-content: space-between;
-  }
+  
   .contact img {
 width: 30px;  }
 }
@@ -105,6 +104,8 @@ width: 30px;  }
   .contact-container {
     align-items: center;
     text-align: center;
+    padding: 12% 0;
+
   }
   .contact-container .general-heading {
     margin-bottom: -10px;
@@ -115,8 +116,11 @@ width: 30px;  }
     font-size: var(--ft-heading4);
 
   }
+  
   .contacts {
     align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .contact {
     font-size: var(--ft-small2);

@@ -1,8 +1,8 @@
 .about-container {
-  height: 90vh;
+  height: auto;
   padding: 0 5%;
   /* border: 1px solid red; */
-  margin-top: 50px;
+  margin: 15% 0;
   display: flex;
   flex-direction: row;
   color: var(--clr-bg);
@@ -25,7 +25,7 @@
   font-weight: 500;
 }
 .about-right .about-detail {
-  font-size:var(--ft-detail);
+  font-size: var(--ft-detail);
   font-weight: 100;
   margin-top: -15px;
 }
@@ -33,7 +33,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  
 }
 .about-right .resume-div .btn-primary {
   margin-right: 30px;
@@ -69,7 +68,7 @@
     font-size: var(--ft-heading2);
     font-weight: 500;
   }
-  
+
   .about-left .profilePic {
     width: 230px;
     height: auto;
@@ -86,7 +85,6 @@
   }
   .about-right .about-detail {
     font-size: var(--ft-detail2);
-    
   }
   .about-left .profilePic {
     width: 210px;
@@ -95,7 +93,6 @@
   .about-right .resume-div {
     padding-top: 25px;
   }
- 
 }
 @media only screen and (max-width: 768px) {
   .about-container {
@@ -123,13 +120,14 @@
   }
   .about-right .general-heading {
     margin-bottom: -15px;
-    font-size: var(--ft-small2);  }
+    font-size: var(--ft-small2);
+  }
 
   .about-right .about-header {
     font-size: var(--ft-heading4);
   }
   .about-right .about-detail {
-    font-size:var(--ft-detail3);
+    font-size: var(--ft-detail3);
     margin-top: 0px;
   }
   .about-right .resume-div {
@@ -138,7 +136,8 @@
   }
   .about-right .resume-div .btn-primary,
   .about-right .resume-div .git {
-    font-size: var(--ft-small2);  }
+    font-size: var(--ft-small2);
+  }
 }
 @media only screen and (max-width: 600px) {
   .about-left {
