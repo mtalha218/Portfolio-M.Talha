@@ -48,7 +48,7 @@ body {
   position: absolute;
   height: 800px;
   width: auto;
-  top: 320%;
+  top: 380%;
   right: 0%;
   z-index: -4;
   opacity: 0.8;
@@ -102,7 +102,7 @@ body {
   }
   .rainbow3 {
     height: 450px;
-    top: 380%;
+    top: 440%;
     opacity: 0.6;
   }
 }
@@ -118,7 +118,7 @@ body {
     opacity: 0.5;
   }
   .rainbow3 {
-    top: 390%;
+    top: 420%;
     opacity: 0.5;
   }
 }
