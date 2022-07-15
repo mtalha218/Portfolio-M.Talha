@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { AiOutlineDownload } from "react-icons/ai";
 import resume from "../../Muhammad-Talha-Resume_compressed.pdf";
-import profilePic from "../../Images/ProfilePic.png";
+import profilePic from "../../Images/ProfilePic.jpg";
 import "./About.css";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
