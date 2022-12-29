@@ -104,3 +104,18 @@
     padding: 9px 20px;
   } */
 }
+@media only screen and (max-width: 400px) {
+  
+  .link-line .link-group {
+    margin-left: 15px;
+  }
+  .link-line .link-btn {
+    margin-left: 15px;
+  }
+  /* .link-group .links {
+    font-size: 1rem;
+  } */
+  /* .btn-primary {
+    padding: 9px 20px;
+  } */
+}

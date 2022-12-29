@@ -51,6 +51,40 @@ function Work() {
           <div className="work2">
             <div className="image"></div>
             <div className="work-detail">
+              <p>Hedge</p>
+              <p>2022- PRESENT</p>
+            </div>
+            <div className="tools">
+              <p>Tools: React.js, Redux, REST Api's, TailwindCss, Git/Github, Bootstrap, Figma ...</p>
+              <a
+                className="link"
+                href="https://www.the-hedge.io/"
+                target="_blank"
+              >
+                <FaExternalLinkAlt />
+              </a>
+            </div>
+          </div>
+          <div className="work3">
+            <div className="image"></div>
+            <div className="work-detail">
+              <p>Innreg</p>
+              <p>2022- PRESENT</p>
+            </div>
+            <div className="tools">
+              <p>Tools: React.js, HTML/CSS, Laravel, REST Api's, Git/Github, Bootstrap, Figma</p>
+              <a
+                className="link"
+                href="https://www.innreg.com/"
+                target="_blank"
+              >
+                <FaExternalLinkAlt />
+              </a>
+            </div>
+          </div>
+          <div className="work4">
+            <div className="image"></div>
+            <div className="work-detail">
               <p>First Ecommerce App</p>
               <p>2020</p>
             </div>
