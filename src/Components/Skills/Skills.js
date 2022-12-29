@@ -7,25 +7,26 @@ import "./Skills.css";
 function Skills() {
   const skills = [
     "React.js",
-    "HTML5/CSS3",
+    "NEXT.js",
     "JavaScript",
+    "HTML5/CSS3",
     "Node.js",
     "Express.js",
     "MongoDB",
     "REST API",
-    "Bootstrap",
+    "Tailwind CSS",
     "SCSS",
     "Redux",
     "AdobeXD/Figma",
+    "Bootstrap",
     "Git/Github",
   ];
   const familiar = [
     "Material Ui",
     "Styled Components",
-    "Tailwind CSS",
     "ReactNative",
     "Firebase",
-    "NEXT.js",
+    
   ];
 
   const { inView, ref } = useInView({ threshold: 0.2 });
