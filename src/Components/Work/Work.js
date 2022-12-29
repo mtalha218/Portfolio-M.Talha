@@ -41,8 +41,8 @@ function Work() {
           <div className="work1">
             <div className="image"></div>
             <div className="work-detail">
-              <p>Career Building Platform (FYP)</p>
-              <p>Coming Soon</p>
+              <p>The Opportunist (FYP)</p>
+              <p>2022</p>
             </div>
             <div className="tools">
               <p>Tools: React.js, Node.js, Express.js, MongoDB...</p>
