@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { AiOutlineDownload } from "react-icons/ai";
-import resume from "../../ResumeFullStack-MuhammadTalha.pdf";
+import resume from "../../Resume-MuhammadTalha.pdf";
 import profilePic from "../../Images/ProfilePic.jpg";
 import "./About.css";
 import { useInView } from "react-intersection-observer";
