@@ -27,6 +27,10 @@
   margin-top: 20px;
   font-size: 1.063rem;
 }
+.works .work2,
+.works .work3{
+  width: min-content;
+}
 .works .work1 .image {
   background-image: url("../../Images/opportunist.PNG");
   width: 480px;
