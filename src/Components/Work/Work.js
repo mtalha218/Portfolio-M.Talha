@@ -54,8 +54,8 @@ function Work() {
               <p>Hedge</p>
               <p>2022- PRESENT</p>
             </div>
-            <div className="tools">
-              <p>Tools: React.js, Redux, REST Api's, TailwindCss, Git/Github, Bootstrap, Figma ...</p>
+            <div className="tools" >
+              <p style={{maxWidth:"80%"}}>Tools: React.js, Redux, REST Api's, TailwindCss, Git/Github, Bootstrap, Figma ...</p>
               <a
                 className="link"
                 href="https://www.the-hedge.io/"
@@ -71,8 +71,8 @@ function Work() {
               <p>Innreg</p>
               <p>2022- PRESENT</p>
             </div>
-            <div className="tools">
-              <p>Tools: React.js, HTML/CSS, Laravel, REST Api's, Git/Github, Bootstrap, Figma</p>
+            <div className="tools" >
+              <p style={{maxWidth:"80%"}}>Tools: React.js, HTML/CSS, Laravel, REST Api's, Git/Github, Bootstrap, Figma</p>
               <a
                 className="link"
                 href="https://www.innreg.com/"

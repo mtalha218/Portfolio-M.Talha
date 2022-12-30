@@ -10,6 +10,7 @@ function Skills() {
     "NEXT.js",
     "JavaScript",
     "HTML5/CSS3",
+    "TypeScript",
     "Node.js",
     "Express.js",
     "MongoDB",
