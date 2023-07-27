@@ -17,7 +17,7 @@ function Hero() {
           className="hero-heading"
         >
           <span className="colorName">Muhammad Talha</span>
-          <br /> Your Next Creative Developer
+          <br /> Your Next Creative Developer.
         </motion.h1>
       </div>
 
