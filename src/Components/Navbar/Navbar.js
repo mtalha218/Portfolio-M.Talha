@@ -48,7 +48,7 @@ function Navbar() {
           </a>
           <div className={dot2 ? "dot" : "dot-visible"}></div>
         </section>
-        <section className="link-group">
+        {/* <section className="link-group">
           <a
             href="#work"
             className="links"
@@ -58,7 +58,7 @@ function Navbar() {
             Work
           </a>
           <div className={dot3 ? "dot" : "dot-visible"}></div>
-        </section>
+        </section> */}
 
         <section className="link-btn">
           

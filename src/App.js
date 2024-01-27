@@ -18,7 +18,7 @@ function App() {
         <Hero />
         <About />
         <Skills />
-        <Work />
+        {/* <Work /> */}
         <Contact />
         <img className="rainbow1" src={rainbow1} alt="rainbow" />
         <img className="rainbow2" src={rainbow2} alt="rainbow" />

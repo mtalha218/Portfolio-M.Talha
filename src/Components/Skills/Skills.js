@@ -10,24 +10,23 @@ function Skills() {
     "NEXT.js",
     "JavaScript",
     "HTML5/CSS3",
-    "TypeScript",
+    "Material Ui",
+    "Tailwind CSS",
     "Node.js",
     "Express.js",
     "MongoDB",
     "REST API",
-    "Tailwind CSS",
-    "SCSS",
     "Redux",
     "AdobeXD/Figma",
     "Bootstrap",
     "Git/Github",
+    "SCSS",
+
   ];
   const familiar = [
-    "Material Ui",
-    "Styled Components",
     "ReactNative",
     "Firebase",
-    
+    "TypeScript",
   ];
 
   const { inView, ref } = useInView({ threshold: 0.2 });
