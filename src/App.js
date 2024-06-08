@@ -9,6 +9,7 @@ import rainbow2 from "./Images/rainbow2.png";
 
 import Skills from "./Components/Skills/Skills";
 import Work from "./Components/Work/Work";
+import Projects from "./Components/Projects/Projects";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <Projects/>
         {/* <Work /> */}
         <Contact />
         <img className="rainbow1" src={rainbow1} alt="rainbow" />

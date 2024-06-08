@@ -58,8 +58,8 @@ function Skills() {
       <div className="skills-left">
       <p className="general-heading">MY SKILLS</p>
 
-        <p className="skills-heading">Technologies I’ve been working with</p>
-        <div className="techs">
+        <p className="skills-heading mt-10">Technologies I’ve been working with</p>
+        <div className="techs  mt-4">
           {skills.map((i) => {
             return <div className="tech">{i}</div>;
           })}
@@ -69,7 +69,7 @@ function Skills() {
         <p className="skills-detail">
           Here are a few technologies I'm familiar with
         </p>
-        <div className="techs">
+        <div className="techs  mt-4">
           {familiar.map((i) => {
             return <div className="tech">{i}</div>;
           })}

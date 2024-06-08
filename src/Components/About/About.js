@@ -37,13 +37,13 @@ function About() {
       </div>
       <div className="about-right">
         <p className="general-heading">ABOUT ME</p>
-        <p className="about-header">
+        <p className="about-header mt-6">
           I'm a professional software developer from Islamabad, Pakistan.
         </p>
-        <p className="about-detail">
+        <p className="about-detail !mt-4">
           I develop high-end web applications for your businesses
         </p>
-        <div className="resume-div">
+        <div className="resume-div !mt-6">
           <div>
           <a href={resume} target="_blank" className="btn-primary">
             <AiOutlineDownload className="down" />

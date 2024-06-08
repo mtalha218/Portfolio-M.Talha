@@ -21,6 +21,7 @@
 .contacts {
   display: flex;
   justify-content: left;
+  align-items: center;
 }
 .contact {
   color: var(--clr-bg);
@@ -44,13 +45,15 @@
 .contact:last-child:hover {
   background-color: rgb(247, 251, 255, 0.1);
 }
-/* .contact-text{
+.contact-text{
     color: var(--clr-bg);
     font-size: 1.3rem;
+    margin: 0;
     margin-left: 20px;
     font-weight: 300;
 
-} */
+
+}
 .contact-container .time {
   color: var(--clr-bg);
   font-size: var(--ft-small);

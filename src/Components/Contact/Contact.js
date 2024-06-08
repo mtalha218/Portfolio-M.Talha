@@ -51,11 +51,11 @@ function Contact() {
     >
       <p className="general-heading">CONTACT ME</p>
 
-      <h1 className="contact-header">
+      <h1 className="contact-header mt-4">
         You can reach <br />
         me here
       </h1>
-      <div className="contacts">
+      <div className="contacts  mt-4">
         <div className="contact">
           <img src={gmail} alt="gmail" className="gmail-logo" />
           <p className="contact-text">mtalha218218@gmail.com</p>
